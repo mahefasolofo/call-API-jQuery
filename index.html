@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise call API</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    </head>
+    <style type="text/css">
+        .init{
+            width: 70%;
+            margin: 0 auto;
+            padding: 45px;
+       }
+       .table{
+           text-align: center;
+       }
+       h2{
+           text-align: center;
+           margin-bottom: 27px;
+           
+       }
+    </style>
+
+<body>
+    <div class="init">
+        <h2>Exercise call API with promise</h2>
+        <table class="table table-success table-striped" id="main">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>UserID</th>
+                    <th>Title</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+
+        </table>
+    </div>
+    <div>
+        <select id="choice">
+            <option value="0">Filter status</option>
+            <option value="1">Not completed</option>
+            <option value="2">Completed </option>
+        </select>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
